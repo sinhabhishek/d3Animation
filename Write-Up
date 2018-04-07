@@ -1,0 +1,26 @@
+
+In this assignment, I chose a dataset that represents the information of 5 soccer teams. The dataset shows the number of goals 
+scored (on y-axis) and fouls conceded (on x-axis) by the 5 teams in 5 soccer games. Each soccer team is represented by a 
+circle of different color and these teams are the categories in my dataset. On clicking the “Next” button, one can see the 
+goals and fouls of each team in each of the 5 games.
+
+For the modification aspect, I added axes labels so that the viewer can clearly see which metrics are shown across the 2 axes. 
+Also, I have modified the starter code in such a way that the size of every circle in the visualization changes dynamically 
+based on the number of goals scored by a team in a particular game. Since the result of a game of soccer is determined 
+primarily by the number of goals scored, this modification seemed to make sense for the visualization of this dataset.
+
+Also, I have added a bounce animation effect with delay and duration parameters for all circles which adds to the visual 
+appeal of the visualization. On clicking the “Next” button, one can see a delay in the movement of all circles which bounce 
+and reach the next value (for the next game).
+
+I discussed a few aspects of this assignment with Mudit Kakkar who also helped me in debugging my code on a couple of 
+occasions. We discussed possible code modification options which helped me come up with my final visualization. I also 
+discussed my doubts with Usman who was kind enough to point me to the right resources for those doubts.
+
+References:
+
+Axes labelling: https://bl.ocks.org/d3noob/23e42c8f67210ac6c678db2cd07a747e
+Animating Scatter Plots: http://duspviz.mit.edu/d3-workshop/transitions-animation/
+Dataset: https://www.kaggle.com/shubhmamp/english-premier-league-match-data/data
+
+
